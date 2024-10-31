@@ -1,0 +1,153 @@
+/* Setting page */
+
+.ss-form-container{
+  margin: 10px auto;
+    width: 60%;
+    padding: 20px;
+    display: block;
+}
+.ss-form{
+  background-color: #fff;
+  border-radius: 5px;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+}
+.ss-form-header{
+  background: #fff;
+  font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.ss-form-header h2{
+  margin: 5px;
+  color: #414141;
+  padding: 16px 0;
+  position: relative;
+}
+.ss-form-header h2 span{
+  color: #a0a0a0;
+}
+.ss-form-header h2:after{
+  content: '';
+  width: 150px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00b3e6;
+  margin: 0 auto;
+}
+.ss-form-body{
+  padding: 20px 30px;
+  display: block;
+}
+.ss-form-body div label {
+    margin-top: 20px !important;
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+}
+.ss-form-body .title{
+  font-size: 14px;
+  color: #1e1e1e;
+}
+.ss_12 {
+    width: 100%;
+}
+.ss_set_row {
+    padding: 0 10px;
+}
+.ss_set_row label span{
+  color: red;
+}
+.ss_appkey::placeholder{
+  color: #6e6e6e;
+}
+.ss_appkey{
+	width: 100%;
+    padding: 5px 10px !important;
+    height: 40px !important;
+    border-radius: 2px;
+    margin: 4px 0;
+}
+.submitssdetail{
+  margin: 16px 0;
+  text-align: center;
+}
+.ss-proceed-btn{
+  background-color: #00b3e6;
+  color: #fff;
+  font-size: 13px;
+  height: 40px;
+  width: 20%;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 4px;
+  border:1px solid #00b3e6;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10) !important;
+}
+.ss-proceed-btn:focus,.ss-proceed-btn:hover,.ss-proceed-btn:active{
+  background-color: #004559;
+  border-color: #004559;
+}
+
+
+/** Help page **/
+input:focus,button:focus{
+  outline: 0px;
+}
+.scss{
+  background: #e6e6e6;
+  padding: 2px 5px;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  width: auto;
+  display: inline-block;
+  text-align: justify;
+}
+.ss-help-header .title span{
+  color: #a0a0a0;
+}
+.ss-help{
+  background-color: #fff;
+  padding: 10px 40px 40px 40px;
+  margin: 40px auto;
+  width: 80%;
+}
+ul.ss-help-list li {
+    font-size: 16px;
+    margin-top: 15px;
+}
+.ss-help-header{
+  padding: 10px 0;
+  position: relative;
+}
+.ss-help-header .title{
+  color: #414141;
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+}
+.ss-help-header .title:after{
+  content: '';
+  width: 80px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00b3e6;
+  margin: 0 auto;
+}
+.ss-help-list{
+  margin: 10px 20px;
+  padding: 10px;
+  list-style: disc;
+  color: #4e4e4e;
+}
